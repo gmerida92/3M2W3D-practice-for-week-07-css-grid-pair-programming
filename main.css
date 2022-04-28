@@ -66,4 +66,8 @@ html, body, div {
     width: auto;
 
     grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(3, 50px);
+
+    grid-auto-flow: column;
+
 }
