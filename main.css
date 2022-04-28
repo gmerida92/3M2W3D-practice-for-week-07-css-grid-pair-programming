@@ -62,12 +62,15 @@ html, body, div {
     margin: 20px;
 
     /* Phase 2 */
-    display: grid;
+    display: inline-grid;
     width: auto;
 
     grid-template-columns: repeat(6, 100px);
     grid-template-rows: repeat(3, 50px);
 
     grid-auto-flow: column;
+
+    align-items: center;
+    justify-items: center;
 
 }
