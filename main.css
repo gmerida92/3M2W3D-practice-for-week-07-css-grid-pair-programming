@@ -20,7 +20,7 @@ html, body, div {
         "footer footer footer";
     
     /* Bonus Phase */
-    /* Your code here */
+   grid-gap: 15px 0;
 }
 .item-1 {
     background-color: #87a7b3; /* steel blue */
@@ -52,7 +52,8 @@ html, body, div {
     background-image: linear-gradient(to right, #e1f1dd, #cdc7be);
 
     /* Bonus Phase */
-    /* Your code here */
+    width: 100px;
+    box-sizing: border-box;
 }
 
 /* ====== */
